@@ -27,3 +27,21 @@ GET     /restaurant/message/
 
 Run Unit Tests
 python manage.py test
+
+Requirements
+- Python
+- MySQL
+- Django
+- Django REST Framework
+- Djoser
+
+Setup
+1. Install dependencies
+2. Configure MySQL
+3. Run migrations:
+   python manage.py migrate
+4. Start server:
+   python manage.py runserver
+
+Run tests:
+python manage.py test
